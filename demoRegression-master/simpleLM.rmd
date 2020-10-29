@@ -23,6 +23,15 @@ plot(LENGTH~NECK,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
+The Adjusted R-square for Length and NECK is lower then HEADLEN and CHEST The Adjusted R square is 0.7476 for NECK 
+
+```{r}
+simp <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~NECK,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+The Adjusted R-square for LENGTH and CHEST is 0.7869 but not as high as LENGTH and HEADLEN at 0.8434
 
 
 
