@@ -49,6 +49,5 @@ plot(LENGTH~HEADLEN,data=bears)
 abline(headlength)
 summary.lm(headlength)
 ```
-
-
+A better variable as opposed to LENGTH and NECK we can say that LENGTH and HEADLENGTH illustrates a better variable because it has a larger Adjusted R squared. The R-squared value for LENGTH and NECK was .7476, the adjusted R-squared value for LENGTH and HEADLENGTH was .8434 
 
